@@ -1,4 +1,4 @@
-# Timesheet Automation Tool README
+# Timesheet Automation Tool for Masman
 
 The **Timesheet Automation Tool** is a Python script that automates the process of creating and sending timesheets via Gmail. It utilizes Google APIs for authentication, email sending, and Google Sheets integration to create a comprehensive timesheet report and deliver it to the specified recipient. This tool is particularly useful for individuals who need to submit timesheets regularly and want to streamline the process.
 
