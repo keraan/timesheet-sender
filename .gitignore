@@ -2,3 +2,4 @@ config.json
 client_secret_*.apps.googleusercontent.com
 token.json
 original_timesheet.xlsx
+* Timesheet - *.xlsx
