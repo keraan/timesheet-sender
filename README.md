@@ -17,10 +17,18 @@ Follow these steps to set up and use the Timesheet Automation Tool:
 1. **Clone the Repository**: Clone this repository to your local machine.
 
 2. **Install Dependencies**: Install the required Python packages by running the following command:
+
+```
+pip install -r requirements.txt
+```
    
 3. **Configure the Tool**: Edit the `config.json` file with your personal details, including your first name, last name, email, and recipient's email. You'll also need to provide the paths to your `client_secret_file.json` (for Google API authentication) and the `original_file` (the template timesheet file you want to use).
 
-4. **Run the Script**: Run the `timesheetMaker.py` script using the following command:
+4. **Run the Script**: Run the `mailSender.py` script using the following command:
+
+```
+python3 mailSender.py
+```
 
 Follow the prompts to input the working days, start times, and end times for each day.
 
